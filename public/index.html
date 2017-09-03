@@ -1,0 +1,52 @@
+<html>
+
+<head>
+    <title> Todo App</title>
+    <link rel="stylesheet" href="/styles.css"/>
+</head>
+
+
+<body>
+<table id="table_id">
+    <tr>
+        <td id="head_background">
+        <div id="head">My Todo List</div>
+        </td>
+    </tr>
+    <tr>
+        <td>
+        <div id="active_todos">Active Todo List</div>
+        <div id="active">
+        </div>
+        </td>
+    </tr>
+    <tr>
+        <td id ="border">
+        <div id="add_todo">Add Todo</div>
+        <input type="text" id="new_todo_input" placeholder="Enter Todo Title Here" autocomplete="on"/>
+        <input type="button"class="button" value="Add Todo" onclick="addTodosAJAX()"/>
+        </td>
+    </tr>
+    <tr>
+        <td id="border">
+        <div class="item">Completed Todos</div>
+            <div class="item" id="left1"><a onclick="hide_complete()" id="hide1">Hide completed items</a></div>
+        <div id="completed">
+        </div>
+        </td>
+    </tr>
+    <tr>
+        <td id="border">
+        <div class="item">Deleted Todos</div>
+        <div class="item" id="left1"><a onclick="hide_delete()" id="hide2">Hide deleted items</a></div>
+        <div id="deleted">
+        </div>
+        </td>
+    </tr>
+</table>
+<div id="todos_list_div">
+</div>
+<br>
+<script src="/script.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+#table_id{
+    margin-left: 300px;
+    margin-top: 10px;
+    border: 5px solid black;
+    width:500px;
+    height:650px;
+}
+#head_background{
+    background-color:beige;
+}
+#add_todo{
+    padding-left: 20px;
+    font-family: "Times New Roman";
+    font-weight: bold;
+    font-style: italic;
+}
+#head{
+    margin-left: 120px;
+    font-size: 30px;
+    font-family: "Times New Roman";
+    font-weight:bold;
+    padding-bottom: 5px;
+
+    background-color:beige ;
+}
+
+#active_todos{
+padding-left:20px;
+font-weight:bold;
+
+
+
+}
+#active{
+    font-size:10px ;
+    color : blue;
+
+}
+#completed
+{
+    color : green;
+    text-decoration : line-through;
+}
+#delete1{
+    margin-left: 40px;
+}
+#border{
+    /*padding-top:20px;*/
+    border-top: 1px solid;
+    border-color: black;
+}
+.item{
+    padding-left:25px;
+    display: inline-block;
+    font-weight: bold;
+}
+#left{
+    padding-left:150px;
+    color:blue;
+    text-decoration: underline;
+}
+#left1{
+    padding-left: 150px;
+    color:blue;
+    text-decoration: underline;
+}
+a:hover{
+    cursor:pointer;
+    color: red;
+}
+
+#todo_data{
+    font-size:16px;
+}
+#deleted{
+    color : red;
+    text-decoration : line-through;
+
+}
+.button {
+    background-color: darkslategray;
+    border: 1px solid;
+    color: white;
+    padding: 8px 30px;
+    text-align: center;
+    text-decoration: white;
+    display: inline-block;
+    font-size: 12px;
+}
